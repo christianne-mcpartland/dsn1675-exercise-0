@@ -27,8 +27,21 @@ img {
 }
 
 h1 {
-    font-family: cursive;
+    font-family: helvetica;
+    font-size: 2rem;
+    color: darkred;
 }
+
+p {
+    padding: .75rem;
+    font-family: helvetica;
+}
+
+footer {
+    background-color: darkgreen;
+    overflow: hidden;
+
+    
 
 
 
