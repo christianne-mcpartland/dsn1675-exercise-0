@@ -41,11 +41,36 @@ blockquote {
     font-family: serif;
 }
 
-
+cite {
+    float: right;
+}
 
 p {
     padding: .75rem;
     font-family: helvetica;
+}
+
+dl {
+    border: 1px solid red;
+    /*
+    Overflow hidden can be used as a clearfix
+    It will remind the <dl> to wrap around all its floated children
+    */
+    overflow: hidden;
+}
+
+dt {
+    float: left;
+    /*Clear tells the element to go below other floated things
+    */
+    clear: left;
+    width: 8rem;
+}
+
+dd {
+    float: left;
+    margin: 0;
+    padding: 0;
 }
 
 a {
