@@ -32,6 +32,17 @@ h1 {
     color: darkred;
 }
 
+h2 {
+    color: darkred;
+    font-family: sans-serif;
+}
+
+blockquote {
+    font-family: serif;
+}
+
+
+
 p {
     padding: .75rem;
     font-family: helvetica;
